@@ -216,8 +216,6 @@ public partial class FlowNode : Resource
         GD.Print($"On: {On}");
         GD.Print($"Output Power: {OutputPower}");
 
-        //GD.Print($"Wda{(InputConnection == null).ToString()}");
-
         GD.Print("____________________________________");
     }
 }
