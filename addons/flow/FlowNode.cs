@@ -3,13 +3,6 @@ using System;
 using System.Collections.Generic;
 
 /*
-    Any feedback or contribution is appreciated as this is very much a WIP. 
-    I'm more used to C than C# and am new to using Godot, please be gentle
-
-    I made this speficially for modeling the behavior of electrical systems for a
-    an immersive sim game I've been working on. It's in a functional state but I feel
-    it could be improved alot
-
     Guide
     ____________________________________________________________
     Any Scene you want to use: Implement IFlow Interface, then add these:
@@ -190,7 +183,7 @@ public partial class FlowNode : Resource
         ((IFlow)Owner).FlowUpdate(OutputPower);
 
         #if DEBUG
-        //DebugPrint();
+        DebugPrint();
         #endif
 
         // Are we at the end?
@@ -215,8 +208,6 @@ public partial class FlowNode : Resource
         GD.Print($"Input Power: {InputPower}");
         GD.Print($"On: {On}");
         GD.Print($"Output Power: {OutputPower}");
-
-        //GD.Print($"Wda{(InputConnection == null).ToString()}");
 
         GD.Print("____________________________________");
     }
