@@ -1,0 +1,34 @@
+/home/jacrich/Desktop/Flow/.godot/mono/temp/bin/Debug/Flow Plugin.deps.json
+/home/jacrich/Desktop/Flow/.godot/mono/temp/bin/Debug/Flow Plugin.runtimeconfig.json
+/home/jacrich/Desktop/Flow/.godot/mono/temp/bin/Debug/Flow Plugin.dll
+/home/jacrich/Desktop/Flow/.godot/mono/temp/bin/Debug/Flow Plugin.pdb
+/home/jacrich/Desktop/Flow/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/home/jacrich/Desktop/Flow/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/home/jacrich/Desktop/Flow/.godot/mono/temp/obj/Debug/Flow Plugin.csproj.AssemblyReference.cache
+/home/jacrich/Desktop/Flow/.godot/mono/temp/obj/Debug/Flow Plugin.GeneratedMSBuildEditorConfig.editorconfig
+/home/jacrich/Desktop/Flow/.godot/mono/temp/obj/Debug/Flow Plugin.AssemblyInfoInputs.cache
+/home/jacrich/Desktop/Flow/.godot/mono/temp/obj/Debug/Flow Plugin.AssemblyInfo.cs
+/home/jacrich/Desktop/Flow/.godot/mono/temp/obj/Debug/Flow Plugin.csproj.CoreCompileInputs.cache
+/home/jacrich/Desktop/Flow/.godot/mono/temp/obj/Debug/Flow Plugin.csproj.CopyComplete
+/home/jacrich/Desktop/Flow/.godot/mono/temp/obj/Debug/Flow Plugin.dll
+/home/jacrich/Desktop/Flow/.godot/mono/temp/obj/Debug/refint/Flow Plugin.dll
+/home/jacrich/Desktop/Flow/.godot/mono/temp/obj/Debug/Flow Plugin.pdb
+/home/jacrich/Desktop/Flow/.godot/mono/temp/obj/Debug/Flow Plugin.genruntimeconfig.cache
+/home/jacrich/Desktop/Flow/.godot/mono/temp/obj/Debug/ref/Flow Plugin.dll
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/bin/Debug/Flow Plugin.deps.json
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/bin/Debug/Flow Plugin.runtimeconfig.json
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/bin/Debug/Flow Plugin.dll
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/bin/Debug/Flow Plugin.pdb
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/obj/Debug/Flow Plugin.csproj.AssemblyReference.cache
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/obj/Debug/Flow Plugin.GeneratedMSBuildEditorConfig.editorconfig
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/obj/Debug/Flow Plugin.AssemblyInfoInputs.cache
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/obj/Debug/Flow Plugin.AssemblyInfo.cs
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/obj/Debug/Flow Plugin.csproj.CoreCompileInputs.cache
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/obj/Debug/Flow Plugin.csproj.CopyComplete
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/obj/Debug/Flow Plugin.dll
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/obj/Debug/refint/Flow Plugin.dll
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/obj/Debug/Flow Plugin.pdb
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/obj/Debug/Flow Plugin.genruntimeconfig.cache
+/home/jacrich/Desktop/gd-flow/.godot/mono/temp/obj/Debug/ref/Flow Plugin.dll

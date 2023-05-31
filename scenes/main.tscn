@@ -1,0 +1,74 @@
+[gd_scene load_steps=8 format=3 uid="uid://c4jbntt6y3ndv"]
+
+[ext_resource type="PackedScene" uid="uid://bdgylf5vu5ajc" path="res://scenes/test_flow_node.tscn" id="1_ax0pv"]
+[ext_resource type="Script" path="res://addons/flow/FlowNode.cs" id="2_vpunt"]
+
+[sub_resource type="Theme" id="Theme_vm4di"]
+MarginContainer/constants/margin_bottom = 10
+MarginContainer/constants/margin_left = 10
+MarginContainer/constants/margin_right = 10
+MarginContainer/constants/margin_top = 10
+
+[sub_resource type="Resource" id="Resource_bfv5o"]
+resource_local_to_scene = true
+script = ExtResource("2_vpunt")
+InputConnectionName = ""
+OutputConnectionNames = PackedStringArray("node_1")
+On = true
+
+[sub_resource type="Resource" id="Resource_8oowf"]
+resource_local_to_scene = true
+script = ExtResource("2_vpunt")
+InputConnectionName = "node_0"
+OutputConnectionNames = PackedStringArray("node_2")
+On = true
+
+[sub_resource type="Resource" id="Resource_tisrm"]
+resource_local_to_scene = true
+script = ExtResource("2_vpunt")
+InputConnectionName = "node_1"
+OutputConnectionNames = PackedStringArray("node_3")
+On = true
+
+[sub_resource type="Resource" id="Resource_51pk7"]
+resource_local_to_scene = true
+script = ExtResource("2_vpunt")
+InputConnectionName = "node_2"
+OutputConnectionNames = PackedStringArray()
+On = true
+
+[node name="main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_vm4di")
+
+[node name="vbox" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="node_0" parent="MarginContainer/vbox" instance=ExtResource("1_ax0pv")]
+layout_mode = 2
+FlowNode_ = SubResource("Resource_bfv5o")
+
+[node name="node_1" parent="MarginContainer/vbox" instance=ExtResource("1_ax0pv")]
+layout_mode = 2
+FlowNode_ = SubResource("Resource_8oowf")
+
+[node name="node_2" parent="MarginContainer/vbox" instance=ExtResource("1_ax0pv")]
+layout_mode = 2
+FlowNode_ = SubResource("Resource_tisrm")
+
+[node name="node_3" parent="MarginContainer/vbox" instance=ExtResource("1_ax0pv")]
+layout_mode = 2
+FlowNode_ = SubResource("Resource_51pk7")

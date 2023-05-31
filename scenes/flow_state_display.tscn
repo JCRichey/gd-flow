@@ -1,0 +1,57 @@
+[gd_scene load_steps=4 format=3 uid="uid://il0nhpeuk5or"]
+
+[ext_resource type="Script" path="res://scripts/FlowStateDisplay.cs" id="1_53yuv"]
+[ext_resource type="Theme" uid="uid://hp4q3yrmmghq" path="res://resources/labels_text.tres" id="2_7ec52"]
+[ext_resource type="Theme" uid="uid://cu78y7p03ag33" path="res://resources/label_values.tres" id="3_icl7s"]
+
+[node name="flow_state_display" type="Control" node_paths=PackedStringArray("Input", "On", "Output")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_53yuv")
+Input = NodePath("hbox/l_input_value")
+On = NodePath("hbox/l_on_value")
+Output = NodePath("hbox/l_output_value")
+
+[node name="hbox" type="HBoxContainer" parent="."]
+layout_mode = 1
+offset_right = 590.0
+offset_bottom = 50.0
+
+[node name="l_input" type="Label" parent="hbox"]
+layout_mode = 2
+theme = ExtResource("2_7ec52")
+text = "Input Power:
+"
+
+[node name="l_input_value" type="Label" parent="hbox"]
+layout_mode = 2
+theme = ExtResource("3_icl7s")
+text = "0
+"
+
+[node name="l_on" type="Label" parent="hbox"]
+layout_mode = 2
+theme = ExtResource("2_7ec52")
+text = "On:
+"
+
+[node name="l_on_value" type="Label" parent="hbox"]
+layout_mode = 2
+theme = ExtResource("3_icl7s")
+text = "0
+"
+
+[node name="l_output" type="Label" parent="hbox"]
+layout_mode = 2
+theme = ExtResource("2_7ec52")
+text = "Output Power:
+"
+
+[node name="l_output_value" type="Label" parent="hbox"]
+layout_mode = 2
+theme = ExtResource("3_icl7s")
+text = "0"

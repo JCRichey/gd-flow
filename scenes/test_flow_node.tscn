@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdgylf5vu5ajc"]
+
+[ext_resource type="PackedScene" uid="uid://il0nhpeuk5or" path="res://scenes/flow_state_display.tscn" id="1_52bfr"]
+[ext_resource type="Script" path="res://scripts/TestFlowNode.cs" id="1_aqwr0"]
+
+[node name="test_flow_node" type="HBoxContainer" node_paths=PackedStringArray("display")]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_aqwr0")
+display = NodePath("flow_state_display")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+text = "Toggle On"
+
+[node name="flow_state_display" parent="." instance=ExtResource("1_52bfr")]
+layout_mode = 2
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

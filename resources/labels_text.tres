@@ -1,0 +1,10 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://hp4q3yrmmghq"]
+
+[ext_resource type="FontFile" uid="uid://bag41lcli1u5n" path="res://resources/src_pro_regular.ttf" id="1_pcepb"]
+
+[resource]
+Label/colors/font_color = Color(0, 1, 0, 1)
+Label/colors/font_outline_color = Color(0, 0, 0, 1)
+Label/constants/outline_size = 6
+Label/font_sizes/font_size = 25
+Label/fonts/font = ExtResource("1_pcepb")

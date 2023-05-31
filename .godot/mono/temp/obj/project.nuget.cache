@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "1+ctXTd8hxThLRXfqbWyRF12AuVeluXxrKOtT3L+ffIa66b6sXLO+otJ15FhMT3seqsUHQMYtgCKtj5UD4x7cA==",
+  "success": true,
+  "projectFilePath": "/home/jacrich/Desktop/gd-flow/Flow Plugin.csproj",
+  "expectedPackageFiles": [
+    "/home/jacrich/.nuget/packages/godot.sourcegenerators/4.0.3/godot.sourcegenerators.4.0.3.nupkg.sha512",
+    "/home/jacrich/.nuget/packages/godotsharp/4.0.3/godotsharp.4.0.3.nupkg.sha512",
+    "/home/jacrich/.nuget/packages/godotsharpeditor/4.0.3/godotsharpeditor.4.0.3.nupkg.sha512",
+    "/home/jacrich/.nuget/packages/microsoft.netcore.app.ref/6.0.16/microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "/home/jacrich/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.16/microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
